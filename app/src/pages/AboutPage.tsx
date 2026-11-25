@@ -22,7 +22,7 @@ export default function AboutPage() {
             <div className="space-y-5 mt-7 body-copy">
               <p>My main classroom is a self-managed production environment providing household DNS, applications, monitoring, certificates, backups, and remote access. That means design choices have consequences: a careless change can interrupt real people, and a good one removes recurring work.</p>
               <p>I’m most at home around Linux, networking, virtualisation, and automation. I enjoy moving between layers — from a Python service or firewall rule to packet captures, certificate chains, and the physical hardware underneath.</p>
-              <p>I completed a Google Cybersecurity Certificate, Cisco Network Fundamentals, and the DartmouthX/IMTx C Programming with Linux Professional Certificate. I also maintain more than 26,000 words of technical documentation. More recently, I passed the full AWS Associate DevOps Analyst interview loop with unanimous positive feedback, including the Bar Raiser.</p>
+              <p>I completed a Google Cybersecurity Certificate, Cisco Network Fundamentals, and the DartmouthX/IMTx C Programming with Linux Professional Certificate. I also maintain more than 26,000 words of technical documentation.</p>
             </div>
             <Link to="/experience" className="button-secondary mt-8">See experience and milestones</Link>
           </Reveal>

@@ -1,12 +1,10 @@
-import { Award, BriefcaseBusiness, CheckCircle2, Cloud, MessageSquare, Network, Wrench } from 'lucide-react';
+import { Award, BriefcaseBusiness, CheckCircle2, MessageSquare, Wrench } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import PageHero from '../components/PageHero';
 import Reveal from '../components/Reveal';
 import SectionHeading from '../components/SectionHeading';
 
 const milestones = [
-  { icon: Cloud, date: '2026', title: 'AWS Associate DevOps Analyst — interview loop passed', text: 'Completed the full Amazon loop with unanimous positive feedback, including the Bar Raiser. Offer-ready pending a role requisition; this was an interview process, not employment.', tag: 'Technical interviews · systems design · operations' },
-  { icon: Network, date: 'Jul 2026', title: 'Google Edge Networking SDE — interviewed', text: 'Interviewed for a parallel Edge Networking software development pathway, extending my infrastructure experience into a large-scale global networking context.', tag: 'Networking · distributed systems · communication' },
   { icon: Wrench, date: '2025–Present', title: 'Independent infrastructure engineering', text: 'Designed and operate self-managed production infrastructure: seven network zones, Proxmox, internal PKI, observability, backup and recovery, secure remote access, and public service delivery.', tag: 'Linux · networking · automation · reliability' },
 ];
 
@@ -20,7 +18,7 @@ const roles = [
 export default function ExperiencePage() {
   return (
     <>
-      <PageHero eyebrow="~/experience / work + milestones" title="Technical depth, built through ownership." description="Hands-on infrastructure work, technical interview milestones, volunteer IT support, and earlier roles that developed reliability and communication." />
+      <PageHero eyebrow="~/experience / work + milestones" title="Technical depth, built through ownership." description="Hands-on infrastructure work, volunteer IT support, and earlier roles that developed reliability and communication." />
       <section className="section">
         <div className="container-shell">
           <Reveal><SectionHeading eyebrow="Technical milestones" title="Evidence beyond a job title." /></Reveal>

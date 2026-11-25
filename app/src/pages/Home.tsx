@@ -10,7 +10,6 @@ import { featuredProjects } from '../data/projects';
 const milestones = [
   { date: '06 Nov 2026', title: 'Finished the seven-zone production migration', text: 'Retired the legacy flat network after DNS, NTP, ACME, logging, management, public ingress, and negative isolation tests passed.' },
   { date: '27 Oct 2026', title: 'Rotated and audited infrastructure access', text: 'Deployed new host and service identities, restricted backup access, and automated a recurring SSH hygiene audit.' },
-  { date: '2026', title: 'Passed the AWS technical interview loop', text: 'Received unanimous positive feedback, including the Bar Raiser, for an Associate DevOps Analyst role. Offer requisition is pending.' },
 ];
 
 const capabilities = [
