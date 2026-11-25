@@ -72,6 +72,16 @@ export const projects: Project[] = [
     architecture: ['Offline root VM → signed intermediate', 'step-ca intermediate → ACME clients', 'Renewal wrapper → deploy certificate → verify service recovery'],
     metrics: [{ value: '2', label: 'CA tiers' }, { value: '0', label: 'root network interfaces' }, { value: '24/7', label: 'automated lifecycle' }],
     featured: true,
+    links: [
+      {
+        label: 'Full case study on GitHub',
+        href: 'https://github.com/v0nneumAn/homelab/blob/main/case-studies/internal-pki-dns/README.md',
+      },
+      {
+        label: 'DNS and certificate artifacts',
+        href: 'https://github.com/v0nneumAn/dns-ca-stack',
+      },
+    ],
   },
   {
     slug: 'backup-recovery',
@@ -216,7 +226,13 @@ export const projects: Project[] = [
       'Reachable-host SSH rotation, monthly audits, and encrypted retirement of old keys.',
     ],
     architecture: ['Clients → Pi-hole → DoH proxy → encrypted upstream', 'Internet → Cloudflare → outbound tunnel → Caddy', 'Managed devices → Tailscale → explicitly approved services'],
-    metrics: [{ value: '85', label: 'lines in DoH proxy' }, { value: '0', label: 'open inbound web ports' }, { value: 'Monthly', label: 'SSH hygiene audit' }],
+    metrics: [{ value: '81', label: 'lines in DoH proxy' }, { value: '0', label: 'open inbound web ports' }, { value: 'Monthly', label: 'SSH hygiene audit' }],
+    links: [
+      {
+        label: 'Full case study on GitHub',
+        href: 'https://github.com/v0nneumAn/homelab/blob/main/case-studies/internal-pki-dns/README.md',
+      },
+    ],
   },
 ];
 
