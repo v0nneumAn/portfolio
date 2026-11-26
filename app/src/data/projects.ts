@@ -102,6 +102,16 @@ export const projects: Project[] = [
     ],
     architecture: ['Guests → scheduled vzdump → dedicated backup storage', 'Hosts / router / workstation → restic over SFTP', 'Retention + status checks + restore tests'],
     metrics: [{ value: '7d/4w/6m', label: 'restic retention' }, { value: '2', label: 'backup layers' }, { value: 'Passed', label: 'restore tests' }],
+    links: [
+      {
+        label: 'Full case study on GitHub',
+        href: 'https://github.com/v0nneumAn/homelab/blob/main/case-studies/backup-recovery/README.md',
+      },
+      {
+        label: 'Hardened backup artifacts',
+        href: 'https://github.com/v0nneumAn/homelab-backup-recovery',
+      },
+    ],
   },
   {
     slug: 'observability',
